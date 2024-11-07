@@ -17,7 +17,7 @@ function binarySearchRecursion(list, element, left, right){
         return binarySearchRecursion( list, element, left, mid - 1); //Also used ChatGPT here for the same airhead mistake
     }
 }
-
+/*
 //Example lists to test
 const list1 = [1, 2, 3, 4, 5];
 const list2 = [-1, 7, 72, 43, 58, 72, 0, 72, 9];
@@ -29,3 +29,4 @@ console.log(binarySearch(list1, 4));
 console.log(binarySearch(list2, 72));
 console.log(binarySearch(list3, -10));
 console.log(binarySearch(list3, 123));
+*/
